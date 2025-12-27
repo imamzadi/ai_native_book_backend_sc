@@ -47,7 +47,7 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # In production, replace with specific origins
+    allow_origins=["https://physical-ai-and-humanoid-robotics-k.vercel.ap"],  # In production, replace with specific origins
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
